@@ -18,7 +18,7 @@ provider "aws" {
 resource "aws_instance" "Suchindhar" {
   ami           = "ami-0a1b648e2cd533174"
   instance_type = "t2.micro"
-  key_name   = "terraform"
+  key_name   = "new"
   vpc_security_group_ids = [
     aws_security_group.allow_ssh.id
   ]
